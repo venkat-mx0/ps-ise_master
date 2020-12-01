@@ -5,6 +5,7 @@ Power Shell Script &amp; batch program to automate 'qoperation' &amp; 'qlogin' r
 Copy/ clone the repsitory branch 'fork0' & extract the contents under %systemdrive%\ps-ise_master\fork0\
 
 Enable Power Shell script execution from local path using the command -
+
  Set-ExecutionPolicy RemoteSigned 
  or 
  Set-ExecutionPolicy Unrestricted
