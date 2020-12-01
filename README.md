@@ -10,6 +10,6 @@ Enable Power Shell script execution from local path using the command -
  or 
  Set-ExecutionPolicy Unrestricted
 
-execute .\a_enu0.ps1
+execute .\a_enu0.ps1]
 
-Author - Venkat]
+Author - Venkat
