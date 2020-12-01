@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<App_SetClientProperties>
+  <association>
+    <entity>
+      <clientName>host0</clientName>
+    </entity>
+  </association>
+  <clientInfo>
+    <clientProps>
+      <clientSecurity>
+        <clientOwners>user0</clientOwners>
+        <clientOwnersOperationType>OVERWRITE</clientOwnersOperationType>
+      </clientSecurity>
+    </clientProps>
+  </clientInfo>
+</App_SetClientProperties>
