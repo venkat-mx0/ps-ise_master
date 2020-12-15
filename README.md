@@ -16,5 +16,9 @@ Enable Power Shell script execution from local path using the command -
 execute .\a_enu0.ps1
 ]
 
+(Note:
+Pre-Configured User Profiles as Client Owners for Laptop Backup under ClientGroupForLaptop global parameter
+with the value EnumUserProfile on client group level, has to be disabled prior to script execution.)
+
 Author - Venkat
 --------------
