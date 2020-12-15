@@ -1,4 +1,4 @@
-﻿$path = "C:\temp\bundle\sc0"
+$path = "C:\temp\bundle\sc0"
 If(!(test-path $path))
 {
       New-Item -ItemType Directory -Force -Path $path
@@ -53,7 +53,10 @@ ReadLines("C:\temp\bundle\sc0\h_enu0.dat"))
         #CMD /c PAUSE
         #cmd.exe --% /c dir /w
         #Start-Sleep -s 10
-        
+
+        $host_n        
+        #Host_Entry reflection on PowerShell Prompt execution Window
+
         Start-Process `
         -FilePath "$env:comspec" `
         -ArgumentList "/c",
@@ -66,5 +69,7 @@ ReadLines("C:\temp\bundle\sc0\h_enu0.dat"))
         #wait $BACK_PID
 }
 
-Write-Host "Logging-Out: Please wait..."
+Remove-Item 'C:\temp\bundle\sc0' -Recurse
+#Recursive Deletion of Temporary Folder - Custom Script & User Data
+Write-Host "Purging Temp files & Logging-Out: Please wait..."
 cmd.exe --% /c qlogout
